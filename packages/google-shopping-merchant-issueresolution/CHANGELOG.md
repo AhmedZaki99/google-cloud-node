@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.4.0](https://github.com/googleapis/google-cloud-node/compare/issueresolution-v0.3.1...issueresolution-v0.4.0) (2025-11-11)
+
+
+### Features
+
+* [merchantapi] Added the `product_id_base64_url_encoded` field to `RenderProductIssuesRequest`. This allows for product IDs containing special characters to be correctly handled when unpadded base64url-encoded ([#6881](https://github.com/googleapis/google-cloud-node/issues/6881)) ([47e96ab](https://github.com/googleapis/google-cloud-node/commit/47e96ab4cae1cbc978f168aa43e491625704ecd7))
+* Added `VERIFY_BUSINESS_VIDEO_IN_MERCHANT_CENTER` as a new enum value to `ExternalAction.Type`. This supports redirecting to Merchant Center for business video verification ([47e96ab](https://github.com/googleapis/google-cloud-node/commit/47e96ab4cae1cbc978f168aa43e491625704ecd7))
+
 ## [0.3.1](https://github.com/googleapis/google-cloud-node/compare/issueresolution-v0.3.0...issueresolution-v0.3.1) (2025-10-13)
 
 

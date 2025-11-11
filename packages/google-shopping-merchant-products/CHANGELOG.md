@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.9.0](https://github.com/googleapis/google-cloud-node/compare/products-v0.8.0...products-v0.9.0) (2025-11-11)
+
+
+### Features
+
+* [merchantapi] Added the `product_id_base64_url_encoded` field to `InsertProductInputRequest`, `DeleteProductInputRequest`, and `GetProductRequest`. This allows for product IDs containing special characters to be correctly handled when unpadded base64url-encoded ([#6884](https://github.com/googleapis/google-cloud-node/issues/6884)) ([43386c8](https://github.com/googleapis/google-cloud-node/commit/43386c83ae8a7f471532a46eeb78e66e118b304f))
+
 ## [0.8.0](https://github.com/googleapis/google-cloud-node/compare/products-v0.7.0...products-v0.8.0) (2025-10-13)
 
 

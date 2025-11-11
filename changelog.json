@@ -5,6 +5,97 @@
       "changes": [
         {
           "type": "feat",
+          "sha": "47e96ab4cae1cbc978f168aa43e491625704ecd7",
+          "message": "[merchantapi] Added the `product_id_base64_url_encoded` field to `RenderProductIssuesRequest`. This allows for product IDs containing special characters to be correctly handled when unpadded base64url-encoded",
+          "issues": [
+            "6881"
+          ]
+        },
+        {
+          "type": "feat",
+          "sha": "47e96ab4cae1cbc978f168aa43e491625704ecd7",
+          "message": "Added `VERIFY_BUSINESS_VIDEO_IN_MERCHANT_CENTER` as a new enum value to `ExternalAction.Type`. This supports redirecting to Merchant Center for business video verification",
+          "issues": []
+        }
+      ],
+      "version": "0.4.0",
+      "language": "JAVASCRIPT",
+      "artifactName": "@google-shopping/issueresolution",
+      "id": "4d7c9f89-b85b-47a0-8574-91c178c3bb41",
+      "createTime": "2025-11-11T18:14:13.698Z"
+    },
+    {
+      "changes": [
+        {
+          "type": "feat",
+          "sha": "43386c83ae8a7f471532a46eeb78e66e118b304f",
+          "message": "[merchantapi] Added the `product_id_base64_url_encoded` field to `InsertProductInputRequest`, `DeleteProductInputRequest`, and `GetProductRequest`. This allows for product IDs containing special characters to be correctly handled when unpadded base64url-encoded",
+          "issues": [
+            "6884"
+          ]
+        }
+      ],
+      "version": "0.9.0",
+      "language": "JAVASCRIPT",
+      "artifactName": "@google-shopping/products",
+      "id": "eae1606c-14ac-4ee4-9953-d2e6a89d2e4c",
+      "createTime": "2025-11-11T18:14:13.671Z"
+    },
+    {
+      "changes": [
+        {
+          "type": "feat",
+          "sha": "7e76acee01946bf65d665ed04cd6305cdc331297",
+          "message": "[merchantapi] Add the AccountLimit resource and its service to the quota bundle",
+          "issues": [
+            "6883"
+          ]
+        }
+      ],
+      "version": "0.9.0",
+      "language": "JAVASCRIPT",
+      "artifactName": "@google-shopping/quota",
+      "id": "5b1f737d-ab65-4fd1-add0-0a00d018bab6",
+      "createTime": "2025-11-11T18:14:13.638Z"
+    },
+    {
+      "changes": [
+        {
+          "type": "feat",
+          "sha": "032375f7ef95b702a739471c674e9a703198eb25",
+          "message": "[merchantapi] Added the `product_id_base64_url_encoded` field to `ListLocalInventoriesRequest`, `InsertLocalInventoryRequest`, `DeleteLocalInventoryRequest`, `ListRegionalInventoriesRequest`, `InsertRegionalInventoryRequest`, and `DeleteRegionalInventoryReques...",
+          "issues": [
+            "6882"
+          ]
+        }
+      ],
+      "version": "0.12.0",
+      "language": "JAVASCRIPT",
+      "artifactName": "@google-shopping/inventories",
+      "id": "5bf0c71d-787f-40f4-9ae7-66e8a2dbf9c8",
+      "createTime": "2025-11-11T18:14:13.607Z"
+    },
+    {
+      "changes": [
+        {
+          "type": "feat",
+          "sha": "54e3b03149fd8f91ea076b691ec0e32d45748421",
+          "message": "[cx] add support for defining custom actions in code. See https://cloud.google.com/dialogflow/cx/docs/concept/playbook/code-block for more information",
+          "issues": [
+            "6879"
+          ]
+        }
+      ],
+      "version": "5.5.0",
+      "language": "JAVASCRIPT",
+      "artifactName": "@google-cloud/dialogflow-cx",
+      "id": "d4dd9e09-5be6-4693-9fb0-a7d43a6b947a",
+      "createTime": "2025-11-11T18:14:13.563Z"
+    },
+    {
+      "changes": [
+        {
+          "type": "feat",
           "sha": "a637d5caaa14186adaae5e8a708f5faee3a17084",
           "message": "[geminidataanalytics] Adding a new SchemaRelationship message to define relationships between table schema",
           "issues": [
@@ -66927,5 +67018,5 @@
       "createTime": "2023-01-28T04:18:24.718Z"
     }
   ],
-  "updateTime": "2025-11-11T01:02:09.511Z"
+  "updateTime": "2025-11-11T18:14:13.698Z"
 }

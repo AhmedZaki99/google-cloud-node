@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.12.0](https://github.com/googleapis/google-cloud-node/compare/inventories-v0.11.1...inventories-v0.12.0) (2025-11-11)
+
+
+### Features
+
+* [merchantapi] Added the `product_id_base64_url_encoded` field to `ListLocalInventoriesRequest`, `InsertLocalInventoryRequest`, `DeleteLocalInventoryRequest`, `ListRegionalInventoriesRequest`, `InsertRegionalInventoryRequest`, and `DeleteRegionalInventoryReques... ([#6882](https://github.com/googleapis/google-cloud-node/issues/6882)) ([032375f](https://github.com/googleapis/google-cloud-node/commit/032375f7ef95b702a739471c674e9a703198eb25))
+
 ## [0.11.1](https://github.com/googleapis/google-cloud-node/compare/inventories-v0.11.0...inventories-v0.11.1) (2025-10-13)
 
 
